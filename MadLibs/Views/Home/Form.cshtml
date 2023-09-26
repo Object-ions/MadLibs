@@ -9,19 +9,76 @@
 </head>
 
 <body>
-  <h1>Fill in your name and your friend's name to create your custom postcard!</h1>
-  <form action="/story" method="post">
-    <label for="adjective">Adjective</label>
-    <input id="adjective" name="adjective" type="text">
+  <div>
+    <h1>Madlibs about Tacos</h1>
+    <h2>Fill in your name and your friend's name to create your custom postcard!</h2>
+    <form action="/story" method="post" id="taco">
+      <label for="adjective">Adjective</label>
+      <input id="adjective" name="adjective" type="text">
 
-    <label for="food">Food</label>
-    <input id="food" name="food" type="text">
+      <label for="food">Food</label>
+      <input id="food" name="food" type="text">
 
-    <label for="verb">Verb</label>
-    <input id="verb" name="verb" type="text">
+      <label for="verb">Verb</label>
+      <input id="verb" name="verb" type="text">
+      <input type="hidden" name="formId" value="taco" />
+      <button type="submit">Go!</button>
+    </form>
+  </div>
+  <br>
+  <br>
 
-    <button type="submit">Go!</button>
-  </form>
+  <div id="gingerbread">
+    <h1>Madlibs about Gingerbread</h1>
+    <h2>Fill in your name and your friend's name to create your custom postcard!</h2>
+    <form action="/story" method="post" id="gingerbread">
+      <label for="adjective">Adjective</label>
+      <input id="adjective" name="adjective" type="text">
+
+      <label for="food">Food</label>
+      <input id="food" name="food" type="text">
+
+      <label for="verb">Verb</label>
+      <input id="verb" name="verb" type="text">
+
+      <input type="hidden" name="formId" value="gingerbread" />
+      <button type="submit">Go!</button>
+    </form>
+  </div>
+
+  <div id="photoshoot">
+    <h1>Madlibs about Tacos</h1>
+    <h2>Fill in your name and your friend's name to create your custom postcard!</h2>
+    <form action="/story-photoshoot" method="post">
+      <label for="adjective">Adjective</label>
+      <input id="adjective" name="adjective" type="text">
+
+      <label for="food">Food</label>
+      <input id="food" name="food" type="text">
+
+      <label for="verb">Verb</label>
+      <input id="verb" name="verb" type="text">
+
+      <button type="submit">Go!</button>
+    </form>
+  </div>
+
+  <div id="/story-pizza-party">
+    <h1>Madlibs about Tacos</h1>
+    <h2>Fill in your name and your friend's name to create your custom postcard!</h2>
+    <form action="/story" method="post">
+      <label for="adjective">Adjective</label>
+      <input id="adjective" name="adjective" type="text">
+
+      <label for="food">Food</label>
+      <input id="food" name="food" type="text">
+
+      <label for="verb">Verb</label>
+      <input id="verb" name="verb" type="text">
+
+      <button type="submit">Go!</button>
+    </form>
+  </div>
 </body>
 
 </html>
